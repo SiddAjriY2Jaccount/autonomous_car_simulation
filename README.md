@@ -21,6 +21,8 @@ Implemented in [PyTorch](https://pytorch.org/) using Python.
 
 ## Development
 
+First, run `pip install -r requirements.txt` to install all required libraries and dependencies (for CPU support).
+
 Run `model.py` to run the training. The best performing model on the testset is saved automatically. 
 
 To use the autonomous driving mode of the simulator, run `drive.py` after the simulator was started and set in autonomous mode.
