@@ -171,9 +171,8 @@ class Model():
 
 
         for epoch in range(self.cfg.train_epochs):  # loop over the dataset multiple times
-
-	    print(epoch)
-
+            
+            print(epoch)
             train_loss, running_loss = 0, 0
 
             for i, data in enumerate(self.trainloader, 0):
