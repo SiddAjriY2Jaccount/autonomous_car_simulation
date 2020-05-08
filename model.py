@@ -82,7 +82,7 @@ class Model():
         cfg.batch_size = 100
         cfg.test_rate = 10
         cfg.test_epochs = 1
-        cfg.train_epochs = 400
+        cfg.train_epochs = 40
         cfg.optimizer = 'adam'
         cfg.cuda = False
 
@@ -171,6 +171,8 @@ class Model():
 
 
         for epoch in range(self.cfg.train_epochs):  # loop over the dataset multiple times
+
+	    print(epoch)
 
             train_loss, running_loss = 0, 0
 
